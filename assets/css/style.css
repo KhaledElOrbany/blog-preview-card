@@ -47,8 +47,13 @@ body {
 }
 
 h2 {
+  cursor: pointer;
   margin-top: 20px;
   font-weight: 800;
+}
+
+h2:active {
+  color: hsl(47, 88%, 63%);
 }
 
 h5 {
